@@ -34,6 +34,11 @@ a:visited { color: #205caa; }
   zoom: 1;
 }
 
+/* image floating */
+.image-right {
+  float:right;
+  margin:0 5px 0 0;
+}
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
