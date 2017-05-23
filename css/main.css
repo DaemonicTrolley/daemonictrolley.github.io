@@ -47,6 +47,9 @@ a:visited { color: #205caa; }
   margin:0 0 0 5px;
 }
 
+.para-image;after {
+  clear: both;
+}
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
