@@ -38,13 +38,13 @@ a:visited { color: #205caa; }
 .image-right {
   float:right;
   margin:0 5px 0 0;
-  width:30%;
+  width: 30%;
 }
 
 .image-left {
   float:left;
-  margin:0 5px 0 0;
-  width:30%;
+  margin:0 0 0 5px;
+  width: 30%;
 }
 
 /* Layout Styles */
