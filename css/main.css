@@ -36,15 +36,15 @@ a:visited { color: #205caa; }
 
 /* image floating */
 .image-right {
+  width: 30%;
   float:right;
   margin:0 5px 0 0;
-  width: 30%;
 }
 
 .image-left {
+  width: 30%;
   float:left;
   margin:0 0 0 5px;
-  width: 30%;
 }
 
 /* Layout Styles */
