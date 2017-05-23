@@ -1,1 +1,18 @@
-theme: jekyll-theme-minimal
+# Site settings
+title: DaemonicTrolley Blog
+email: 
+description: "It's a mystery"
+baseurl: ""
+url: "http://daemonictrolley.github.io"
+#twitter_username: karpathy
+github_username:  daemonictrolley
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
