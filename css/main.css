@@ -50,7 +50,7 @@ a:visited { color: #205caa; }
 }
 
 /* styling for centered images (larger than floats).  Also handle "none" style from wordpress */
-.fig-none .fig-center {
+.fig-none, .fig-center {
   width: 50%;
   height: 50%;
   margin:0 5px 0 5px;
