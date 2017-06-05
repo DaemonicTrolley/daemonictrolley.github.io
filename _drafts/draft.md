@@ -4,6 +4,7 @@ title:  "A draft"
 excerpt: "A nice post"
 date:   2017-05-25 10:00:00
 img: /assets/20170410_111022-1600x900.jpg
+draft: true
 ---
 
 # Android h1
