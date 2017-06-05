@@ -55,6 +55,7 @@ a:visited { color: #205caa; }
   height: 80%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .fig-none img, .fig-center img, .fig-right img, .fig-left img {
