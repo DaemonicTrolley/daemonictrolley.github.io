@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="home">
+  
+  <ul class="posts">
+    {% for post in site.posts %}
+      {% if post.draft %}
+        <li class="image-para">
+          <figure class="fig-left"><img src="{{post.img}}"></figure>
+          <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <br>
+          {{ post.excerpt }}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+</div>
+
+Generated at {{ site.time }}
