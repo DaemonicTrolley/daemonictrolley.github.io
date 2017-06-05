@@ -54,7 +54,7 @@ a:visited { color: #205caa; }
   width: 80%;
   height: 80%;
   display: flex;
-  align-items: center
+  align-items: center;
 }
 
 .fig-none img, .fig-center img, .fig-right img, .fig-left img {
