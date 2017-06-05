@@ -53,12 +53,13 @@ a:visited { color: #205caa; }
 .fig-none, .fig-center {
   width: 80%;
   height: 80%;
-  margin:0 5px 0 5px;
+  padding: 10% 10%;
 }
 
 .fig-none img, .fig-center img, .fig-right img, .fig-left img {
   width: 100%;
   height: 100%;
+  margin: 0 auto;
   text-align: center;
 }
 
