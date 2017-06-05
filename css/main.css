@@ -50,7 +50,7 @@ a:visited { color: #205caa; }
 }
 
 .fig-center {
-  width: 80%;
+  width: 60%;
   margin:0 5px 0 5px;
 }
 
@@ -61,7 +61,7 @@ a:visited { color: #205caa; }
 }
 
 .para-image {
-    background-color: #FFFFFF;
+#    background-color: #FFFFFF;
     margin: 0 auto;
     min-height: 30%; /* Set to minimum height so overflow doesn't get hidden */
     overflow-y: hidden; /* HIDE overflow; I know, it doesn't make much sense */
