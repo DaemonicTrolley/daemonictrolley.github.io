@@ -36,23 +36,23 @@ a:visited { color: #205caa; }
 
 /* ----------------------- image floating ------------------------*/
 .fig-right {
-  width: 30%;
-  height: 30%;
+  width: 40%;
+  height: 40%;
   float:right;
   margin:0 5px 0 5px;
 }
 
 .fig-left {
-  width: 30%;
-  height: 30%;
+  width: 40%;
+  height: 40%;
   float:left;
   margin:0 5px 0 5px;
 }
 
 /* styling for centered images (larger than floats).  Also handle "none" style from wordpress */
 .fig-none, .fig-center {
-  width: 50%;
-  height: 50%;
+  width: 80%;
+  height: 80%;
   margin:0 5px 0 5px;
 }
 
@@ -66,9 +66,6 @@ a:visited { color: #205caa; }
     margin: 0 auto;
     min-height: 30%; /* Set to minimum height so overflow doesn't get hidden */
     overflow-y: hidden; /* HIDE overflow; I know, it doesn't make much sense */
-# trying to get width to match non-para-image paras..
-#    position: relative;
-#    width: 500px;
 }
 
 /* make figures play nicely with floating and captions */
