@@ -22,7 +22,7 @@
 #  </figure>
 
 
-s/\[caption.*alignright.*href="\(.*jpg\).*src=.*<\/a>\W*\(.*\)\[\/caption\]/<figure class="fig-right"><img src="\1"><figcaption>\2<\/figcaption><\/figure>/g
-s/\[caption.*alignleft.*href="\(.*jpg\).*src=.*<\/a>\W*\(.*\)\[\/caption\]/<figure class="fig-left"><img src="\1"><figcaption>\2<\/figcaption><\/figure>/g
-s/\[caption.*aligncenter.*href="\(.*jpg\).*src=.*<\/a>\W*\(.*\)\[\/caption\]/<figure class="fig-center"><img src="\1"><figcaption>\2<\/figcaption><\/figure>/g
-s/\[caption.*alignnone.*href="\(.*jpg\).*src=.*<\/a>\W*\(.*\)\[\/caption\]/<figure class="fig-none"><img src="\1"><figcaption>\2<\/figcaption><\/figure>/g
+s/\[caption.*alignright.*href="\(.*jpg\).*src=.*<\/a>\W*\(.*\)\[\/caption\]/<div class="para-image"><figure class="fig-right"><img src="\1"><figcaption>\2<\/figcaption><\/figure>/g
+s/\[caption.*alignleft.*href="\(.*jpg\).*src=.*<\/a>\W*\(.*\)\[\/caption\]/<div class="para-image"><figure class="fig-left"><img src="\1"><figcaption>\2<\/figcaption><\/figure>/g
+s/\[caption.*aligncenter.*href="\(.*jpg\).*src=.*<\/a>\W*\(.*\)\[\/caption\]/<div class="para-image"><figure class="fig-center"><img src="\1"><figcaption>\2<\/figcaption><\/figure>/g
+s/\[caption.*alignnone.*href="\(.*jpg\).*src=.*<\/a>\W*\(.*\)\[\/caption\]/<div class="para-image"><figure class="fig-none"><img src="\1"><figcaption>\2<\/figcaption><\/figure>/g
