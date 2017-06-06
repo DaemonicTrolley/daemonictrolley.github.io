@@ -53,15 +53,15 @@ a:visited { color: #205caa; }
 .fig-none, .fig-center {
   width: 80%;
   height: 80%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+#  display: block;
+#  margin-left: auto;
+#  margin-right: auto;
 }
 
 .fig-none img, .fig-center img .fig-right img, .fig-left img {
   width: 100%;
   height: 100%;
-  margin: 0 auto;
+#  margin: 0 auto;
   text-align: center;
 }
 
