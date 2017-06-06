@@ -54,8 +54,8 @@ a:visited { color: #205caa; }
   width: 80%;
   height: 80%;
   display: block;
-#  margin-left: auto;
-#  margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .fig-none img, .fig-center img .fig-right img, .fig-left img {
