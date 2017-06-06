@@ -73,7 +73,6 @@ a:visited { color: #205caa; }
 
 /* make figures play nicely with floating and captions */
 figure { 
-  background-color: #DEDEDE; 
   display: table; 
 }
 
