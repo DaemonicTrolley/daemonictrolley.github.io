@@ -67,8 +67,6 @@ a:visited { color: #205caa; }
 .fig-none, .fig-center {
   width: 80%;
   height: 80%;
-#  display: block;
-#  margin 0 5px 0 5px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
